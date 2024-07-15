@@ -1,4 +1,4 @@
-const LinkButton = ({ href, text }) => {
+const LinkButton = ({ href:any, text:any }) => {
     return (
       <a
         href={href}
