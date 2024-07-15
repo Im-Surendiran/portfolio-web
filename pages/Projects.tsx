@@ -19,7 +19,7 @@ export default function Projects({ data }: Props) {
         </div>
         <div className="md:grid gap-8 grid-cols-4">
           {data.map((project: any, i: any) => (
-            <div className="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition mb-6" key={i}>
+            <div key={project.id} className="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition mb-6" >
               <div className="rounded-t-xl overflow-hidden">
                 <Image
                   width={400}
