@@ -21,7 +21,12 @@ export default function Projects({ data }: Props) {
           {data.map((project: any, i: any) => (
             <div className="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition mb-6" key={i}>
               <div className="rounded-t-xl overflow-hidden">
-                <img className="rounded-xl object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out" src={project.imgurl} alt="" />
+                <Image
+                  width={400}
+                  height={400}
+                  className="rounded-xl object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
+                  src={project.imgurl}
+                  alt="" />
               </div>
               <div className="w-full min-h-[50%] p-4 md:w-full md:text-left">
                 <h4 className="text-base font-semibold md:text-base text-black">
