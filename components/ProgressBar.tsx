@@ -2,7 +2,7 @@
 
 import React from "react";
 
-const ProgressBar = ({ label, percentage }) => {
+const ProgressBar = ({ label:any, percentage:any }) => {
   return (
     <div className="w-full mb-2">
       <p className="mb-2 text-black">{label}</p>
