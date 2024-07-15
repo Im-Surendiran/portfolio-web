@@ -18,7 +18,7 @@ export default function Projects({ data }: Props) {
           <h1 className="text-xl text-black font-semibold mb-8">Projects</h1>
         </div>
         <div className="md:grid gap-8 grid-cols-4">
-          {data.map((project) => (
+          {data && data.map((project) => (
             <div key={project.id} className="flex flex-col group bg-white border shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition mb-6" >
               <div className="rounded-t-xl overflow-hidden">
                 <Image
