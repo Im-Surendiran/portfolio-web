@@ -1,4 +1,9 @@
-const LinkButton = ({ href:any, text:any }) => {
+
+type CardProps = {
+  href: string;
+  text: string;
+};
+const LinkButton: React.FC<CardProps>= ({ href, text}) => {
     return (
       <a
         href={href}

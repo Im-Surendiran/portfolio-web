@@ -1,8 +1,11 @@
 // components/ProgressBar.js
 
 import React from "react";
-
-const ProgressBar = ({ label:any, percentage:any }) => {
+type CardProps = {
+  label: any;
+  percentage: any;
+};
+const ProgressBar: React.FC<CardProps> = ({ label, percentage }) => {
   return (
     <div className="w-full mb-2">
       <p className="mb-2 text-black">{label}</p>
