@@ -1,0 +1,85 @@
+{
+     "data": [
+           
+            {
+                "id": 1,
+                "title": "Portfolio Web Application",
+                "content": "Nexts was used to create the portfolio website. TailwindCSS were used to style the website.",
+                "imgurl": "/projectjs/portfolio/image.png",
+                "deployedLink": "#hero",
+                "tech": [
+                   {
+                        "tech": "/skillsLogos/next-js.png"
+                    },
+                    {
+                        "tech": "/skillsLogos/tailwind.png"
+                    },
+                    {
+                        "tech": "/skillsLogos/typescript.png"
+                    }
+                ]
+            },
+             {
+                "id": 2,
+                "title": "Admin Web Application",
+                "content": "Full-stack role individiualy involves developing an admin website using MongoDB, Express.js, React, and Node.js.",
+                "imgurl": "/projectjs/Admin/image.jpg",
+                "deployedLink": "https://www.figma.com/proto/vsRwmVmALxXgN1a6OTxVdm/Finflow-Admin?node-id=36-663&t=MxoNBWM2YTSjEfHR-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+                "tech": [
+                    {
+                        "tech": "/skillsLogos/mongodb.png"
+                    },
+                    {
+                        "tech": "/skillsLogos/express.png"
+                    },
+                    {
+                        "tech": "/skillsLogos/react.png"
+                    },
+                    {
+                        "tech": "/skillsLogos/node.png"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Two Wheeler ecommerce",
+                "content": "Full-stack role individiualy involves developing an Two Wheeler Ecommerce website using Mern stack.",
+                "imgurl": "/projectjs/Ecommerce/image.jpg",
+                "deployedLink": "https://drive.google.com/drive/folders/1DC4gU1X0onixXxoWrZ10kYU5F039v4pf",
+                "tech": [
+                    {
+                        "tech": "/skillsLogos/mongodb.png"
+                    },
+                    {
+                        "tech": "/skillsLogos/express.png"
+                    },
+                    {
+                        "tech": "/skillsLogos/react.png"
+                    },
+                    {
+                        "tech": "/skillsLogos/node.png"
+                    }
+                ]
+            }, {
+                "id": 4,
+                "title": "Business Website",
+                "content": "A Frontend Developer role  developing an Business Website using HTML, CSS, Javascript, and Bootstrap.",
+                "imgurl": "/projectjs/Business/image.jpg",
+                "deployedLink": "https://finflow.in/",
+                "tech": [
+                    {
+                        "tech": "/skillsLogos/html.png"
+                    },
+                    {
+                        "tech": "/skillsLogos/c.png"
+                    },
+                    {
+                        "tech": "/skillsLogos/bootstrap.png"
+                    },
+                    {
+                        "tech": "/skillsLogos/js.png"
+                    }
+                ]
+            }
+        ]
+    }
