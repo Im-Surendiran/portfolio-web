@@ -11,7 +11,7 @@ type Props = {};
 export default function Hero({ }: Props) {
 
     return (
-        <div className="pt-16 md:pt-28 h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+        <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
             <Image
                 width={240}
                 height={240}

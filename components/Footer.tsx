@@ -9,7 +9,8 @@ const Footer = () => {
                     <h3 className="text-xl font-semibold mb-4">Contact</h3>
                     <p>Email: <a href='mailto:surendiranpks@gmail.com'
                     >surendiranpks@gmail.com</a></p>
-                    <p>Phone: +971559015488</p>
+                    <p>Phone: <a href='tel:+971559015488'
+                    >+971559015488</a></p>
                 </div> 
                 <div className="w-full md:w-1/3 mb-8 md:mb-0">
                     <h3 className="text-xl font-semibold mb-4">Follow Me</h3>
